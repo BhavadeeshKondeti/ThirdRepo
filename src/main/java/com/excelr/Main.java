@@ -7,13 +7,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//Ioc container starts (ctlr+space)
 		ApplicationContext con=new ClassPathXmlApplicationContext("config.xml");
 		
-		//getBean called
+		
 		
 		Student res=con.getBean("s1",Student.class);
-		System.out.println(res);
+		
 
 	}
 
