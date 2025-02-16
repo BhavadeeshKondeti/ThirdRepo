@@ -1,6 +1,8 @@
 package com.excelr;
 
 public class Student {
+
+	int a=12;
 	
 	private int studentId=123;
 	private String studentName="veda";
